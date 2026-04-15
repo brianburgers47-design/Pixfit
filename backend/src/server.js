@@ -322,8 +322,14 @@ app.post('/api/exports/consume', (request, response) => {
 
 app.post('/api/checkout/session', async (request, response) => {
   try {
+    console.log('[checkout] route hit');
+    console.log('[checkout] body:', request.body);
+
     const plan = request.body?.plan;
     const anonymousUserId = normalizeAnonymousUserId(request.body?.anonymousUserId);
+
+    console.log('[checkout] anonymousUserId:', anonymousUserId);
+    console.log('[checkout] plan:', plan);
 
     if (!anonymousUserId) {
       response.status(400).json({ error: 'Missing or invalid anonymousUserId' });
@@ -339,7 +345,10 @@ app.post('/api/checkout/session', async (request, response) => {
 
     logEvent('checkout_started', { anonymousUserId, plan });
 
+    console.log('[checkout] resolving price for plan:', plan);
     const priceId = await resolvePriceId(plan);
+    console.log('[checkout] resolved priceId:', priceId);
+
     const mode = plan === 'starter' ? 'payment' : 'subscription';
     const metadata = {
       anonymousUserId,
@@ -347,6 +356,7 @@ app.post('/api/checkout/session', async (request, response) => {
       credits: plan === 'starter' ? '20' : '0',
     };
 
+    console.log('[checkout] creating Stripe Checkout Session');
     const session = await requireStripe().checkout.sessions.create({
       mode,
       line_items: [{ price: priceId, quantity: 1 }],
@@ -363,8 +373,20 @@ app.post('/api/checkout/session', async (request, response) => {
         : {}),
     });
 
+    console.log('[checkout] session created:', {
+      id: session.id,
+      url: session.url,
+    });
+
     response.json({ checkoutUrl: session.url });
   } catch (error) {
+    console.error('[checkout] failed:', {
+      message: error.message,
+      code: error.code,
+      type: error.type,
+      raw: error.raw,
+      stack: error.stack,
+    });
     console.error('Create Checkout Session failed:', error);
     if (error.code === 'missing_stripe_secret_key') {
       response.status(503).json({
