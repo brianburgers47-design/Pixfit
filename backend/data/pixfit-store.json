@@ -1,0 +1,442 @@
+{
+  "users": {
+    "anon_test_codex": {
+      "anonymousUserId": "anon_test_codex",
+      "credits": 1,
+      "isPro": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-12T08:43:22.060Z",
+      "updatedAt": "2026-04-12T08:43:22.066Z"
+    },
+    "anon_verify_pixfit": {
+      "anonymousUserId": "anon_verify_pixfit",
+      "credits": 0,
+      "isPro": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-12T08:44:02.071Z",
+      "updatedAt": "2026-04-12T08:44:09.483Z"
+    },
+    "anon_6e07765cf4b2f798cf2f454a11cdfd0e": {
+      "anonymousUserId": "anon_6e07765cf4b2f798cf2f454a11cdfd0e",
+      "credits": 0,
+      "isPro": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-12T08:44:40.376Z",
+      "updatedAt": "2026-04-12T08:45:13.069Z"
+    },
+    "anon_stripe_verify": {
+      "anonymousUserId": "anon_stripe_verify",
+      "credits": 1,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-12T08:51:33.282Z",
+      "updatedAt": "2026-04-12T08:51:33.285Z"
+    },
+    "anon_75f707a9a33e844f3279493f87ac7bdc": {
+      "anonymousUserId": "anon_75f707a9a33e844f3279493f87ac7bdc",
+      "credits": 2,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-12T19:45:40.677Z",
+      "updatedAt": "2026-04-12T19:45:40.677Z"
+    },
+    "anon_1ce0f27909f1913133763a94adec91a2": {
+      "anonymousUserId": "anon_1ce0f27909f1913133763a94adec91a2",
+      "credits": 2,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-12T20:39:27.145Z",
+      "updatedAt": "2026-04-12T20:39:27.145Z"
+    },
+    "anon_f71bdd0b840f09b091287cdfe97cc19e": {
+      "anonymousUserId": "anon_f71bdd0b840f09b091287cdfe97cc19e",
+      "credits": 2,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-12T21:05:17.553Z",
+      "updatedAt": "2026-04-12T21:05:17.553Z"
+    },
+    "anon_c05992474c1e9ad306995513818aca18": {
+      "anonymousUserId": "anon_c05992474c1e9ad306995513818aca18",
+      "credits": 2,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-13T08:22:07.856Z",
+      "updatedAt": "2026-04-13T08:22:07.856Z"
+    },
+    "anon_25fa4ccdf5a767386b6b348ac83d6443": {
+      "anonymousUserId": "anon_25fa4ccdf5a767386b6b348ac83d6443",
+      "credits": 22,
+      "isPro": false,
+      "hasStarter": true,
+      "plan": "starter",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-13T08:54:06.997Z",
+      "updatedAt": "2026-04-13T08:56:45.807Z"
+    },
+    "anon_2a19d6c2a11bfe186349e9858a0779a9": {
+      "anonymousUserId": "anon_2a19d6c2a11bfe186349e9858a0779a9",
+      "credits": 2,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-13T09:13:51.801Z",
+      "updatedAt": "2026-04-13T09:13:51.801Z"
+    },
+    "anon_b7b92dc7edf1fbd1d98c58b339541adb": {
+      "anonymousUserId": "anon_b7b92dc7edf1fbd1d98c58b339541adb",
+      "credits": 2,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-13T21:45:32.533Z",
+      "updatedAt": "2026-04-13T21:45:32.533Z"
+    },
+    "anon_e5d93450528e33b38c88058cc5905529": {
+      "anonymousUserId": "anon_e5d93450528e33b38c88058cc5905529",
+      "credits": 82,
+      "isPro": true,
+      "hasStarter": true,
+      "plan": "pro",
+      "stripeCustomerId": "cus_UKY9TyQIrDtvkx",
+      "stripeSubscriptionId": "sub_1TLt3I9S0Hw1D89fBknwo1fI",
+      "subscriptionStatus": "active",
+      "createdAt": "2026-04-13T22:06:02.392Z",
+      "updatedAt": "2026-04-13T22:34:03.221Z"
+    },
+    "anon_fd64025669f063e8ff053ff8c79fc46f": {
+      "anonymousUserId": "anon_fd64025669f063e8ff053ff8c79fc46f",
+      "credits": 1,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-14T16:32:20.348Z",
+      "updatedAt": "2026-04-14T16:32:53.017Z"
+    },
+    "anon_1c16667edf43d62e8b80277d94cea314": {
+      "anonymousUserId": "anon_1c16667edf43d62e8b80277d94cea314",
+      "credits": 2,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-15T09:59:58.372Z",
+      "updatedAt": "2026-04-15T09:59:58.372Z"
+    },
+    "anon_29ce6519948335316b5ce489c3604405": {
+      "anonymousUserId": "anon_29ce6519948335316b5ce489c3604405",
+      "credits": 1,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-15T12:37:10.433Z",
+      "updatedAt": "2026-04-15T12:51:07.343Z"
+    },
+    "anon_142f650c14cc13769684ca9ee69a3d43": {
+      "anonymousUserId": "anon_142f650c14cc13769684ca9ee69a3d43",
+      "credits": 1,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-15T14:29:54.841Z",
+      "updatedAt": "2026-04-15T14:30:11.063Z"
+    },
+    "anon_95ffac83605cd39437454797b63b0141": {
+      "anonymousUserId": "anon_95ffac83605cd39437454797b63b0141",
+      "credits": 2,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-15T14:40:17.942Z",
+      "updatedAt": "2026-04-15T14:40:17.942Z"
+    }
+  },
+  "processedEvents": {
+    "evt_3TLgIS9S0Hw1D89f0055uFv9": {
+      "type": "charge.succeeded",
+      "processedAt": "2026-04-13T08:56:45.733Z"
+    },
+    "evt_1TLgIT9S0Hw1D89fCqtJQmrC": {
+      "type": "checkout.session.completed",
+      "processedAt": "2026-04-13T08:56:45.809Z"
+    },
+    "evt_3TLgIS9S0Hw1D89f00FSzDLK": {
+      "type": "payment_intent.succeeded",
+      "processedAt": "2026-04-13T08:56:45.884Z"
+    },
+    "evt_3TLgIS9S0Hw1D89f0Xr6L2Us": {
+      "type": "payment_intent.created",
+      "processedAt": "2026-04-13T08:56:45.938Z"
+    },
+    "evt_3TLgIS9S0Hw1D89f0qKdJan6": {
+      "type": "charge.updated",
+      "processedAt": "2026-04-13T08:56:49.534Z"
+    },
+    "evt_1TLk7Z9S0Hw1D89fH7PqJqrY": {
+      "type": "tax.settings.updated",
+      "processedAt": "2026-04-13T13:01:45.975Z"
+    },
+    "evt_1TLk8j9S0Hw1D89fsagkVBdA": {
+      "type": "customer.created",
+      "processedAt": "2026-04-13T13:02:57.202Z"
+    },
+    "evt_3TLk8y9S0Hw1D89f1KKUfN1y": {
+      "type": "payment_intent.created",
+      "processedAt": "2026-04-13T13:03:14.369Z"
+    },
+    "evt_3TLk8y9S0Hw1D89f1FIW72zj": {
+      "type": "payment_intent.canceled",
+      "processedAt": "2026-04-13T13:03:14.388Z"
+    },
+    "evt_1TLk9a9S0Hw1D89fXxhrdID7": {
+      "type": "customer.deleted",
+      "processedAt": "2026-04-13T13:03:50.204Z"
+    },
+    "evt_3TLsev9S0Hw1D89f1Crp4zVx": {
+      "type": "payment_intent.created",
+      "processedAt": "2026-04-13T22:08:47.598Z"
+    },
+    "evt_3TLsev9S0Hw1D89f1Z3IMLR8": {
+      "type": "payment_intent.requires_action",
+      "processedAt": "2026-04-13T22:08:47.857Z"
+    },
+    "evt_3TLsev9S0Hw1D89f19MhrOzc": {
+      "type": "payment_intent.payment_failed",
+      "processedAt": "2026-04-13T22:08:56.523Z"
+    },
+    "evt_3TLsev9S0Hw1D89f1xFn2nQr": {
+      "type": "charge.failed",
+      "processedAt": "2026-04-13T22:10:03.690Z"
+    },
+    "evt_3TLsev9S0Hw1D89f1WE7gI6k": {
+      "type": "payment_intent.payment_failed",
+      "processedAt": "2026-04-13T22:10:03.828Z"
+    },
+    "evt_3TLsev9S0Hw1D89f1prKtJ8M": {
+      "type": "payment_intent.succeeded",
+      "processedAt": "2026-04-13T22:11:14.847Z"
+    },
+    "evt_3TLsev9S0Hw1D89f1rdD5u3U": {
+      "type": "charge.succeeded",
+      "processedAt": "2026-04-13T22:11:14.962Z"
+    },
+    "evt_1TLshK9S0Hw1D89fOGMNoeip": {
+      "type": "checkout.session.completed",
+      "processedAt": "2026-04-13T22:11:15.037Z"
+    },
+    "evt_3TLsev9S0Hw1D89f1MWnCzQX": {
+      "type": "charge.updated",
+      "processedAt": "2026-04-13T22:11:17.532Z"
+    },
+    "evt_3TLsqM9S0Hw1D89f1llb6XUA": {
+      "type": "charge.succeeded",
+      "processedAt": "2026-04-13T22:20:36.323Z"
+    },
+    "evt_1TLsqO9S0Hw1D89fqpfZ5x6H": {
+      "type": "checkout.session.completed",
+      "processedAt": "2026-04-13T22:20:36.410Z"
+    },
+    "evt_3TLsqM9S0Hw1D89f1El94HQ8": {
+      "type": "payment_intent.succeeded",
+      "processedAt": "2026-04-13T22:20:36.508Z"
+    },
+    "evt_3TLsqM9S0Hw1D89f1mnSFaVE": {
+      "type": "payment_intent.created",
+      "processedAt": "2026-04-13T22:20:36.543Z"
+    },
+    "evt_3TLsqM9S0Hw1D89f1wUw3r06": {
+      "type": "charge.updated",
+      "processedAt": "2026-04-13T22:20:38.964Z"
+    },
+    "evt_3TLsvq9S0Hw1D89f03MTnUbb": {
+      "type": "charge.succeeded",
+      "processedAt": "2026-04-13T22:26:16.223Z"
+    },
+    "evt_1TLsvs9S0Hw1D89fjyCtY92u": {
+      "type": "checkout.session.completed",
+      "processedAt": "2026-04-13T22:26:16.314Z"
+    },
+    "evt_3TLsvq9S0Hw1D89f0pMU2o2s": {
+      "type": "payment_intent.succeeded",
+      "processedAt": "2026-04-13T22:26:16.414Z"
+    },
+    "evt_3TLsvq9S0Hw1D89f035dBhAc": {
+      "type": "payment_intent.created",
+      "processedAt": "2026-04-13T22:26:16.441Z"
+    },
+    "evt_3TLsvq9S0Hw1D89f0sM4nQqt": {
+      "type": "charge.updated",
+      "processedAt": "2026-04-13T22:26:18.874Z"
+    },
+    "evt_3TLt1k9S0Hw1D89f1FtX3zqp": {
+      "type": "charge.succeeded",
+      "processedAt": "2026-04-13T22:32:21.875Z"
+    },
+    "evt_1TLt1l9S0Hw1D89fNC7A88jC": {
+      "type": "checkout.session.completed",
+      "processedAt": "2026-04-13T22:32:21.996Z"
+    },
+    "evt_3TLt1k9S0Hw1D89f1gpBJJJV": {
+      "type": "payment_intent.succeeded",
+      "processedAt": "2026-04-13T22:32:22.160Z"
+    },
+    "evt_3TLt1k9S0Hw1D89f1mlsvyCX": {
+      "type": "payment_intent.created",
+      "processedAt": "2026-04-13T22:32:22.341Z"
+    },
+    "evt_3TLt1k9S0Hw1D89f1WdsPCF2": {
+      "type": "charge.updated",
+      "processedAt": "2026-04-13T22:32:24.609Z"
+    },
+    "evt_3TLt3K9S0Hw1D89f0S6mhLnE": {
+      "type": "charge.succeeded",
+      "processedAt": "2026-04-13T22:34:02.646Z"
+    },
+    "evt_1TLt3O9S0Hw1D89fv6UMsS2m": {
+      "type": "payment_method.attached",
+      "processedAt": "2026-04-13T22:34:02.706Z"
+    },
+    "evt_1TLt3O9S0Hw1D89fiiIF7DXX": {
+      "type": "customer.created",
+      "processedAt": "2026-04-13T22:34:02.784Z"
+    },
+    "evt_1TLt3O9S0Hw1D89f1XsowOvv": {
+      "type": "checkout.session.completed",
+      "processedAt": "2026-04-13T22:34:02.807Z"
+    },
+    "evt_1TLt3O9S0Hw1D89fWEbuyF9v": {
+      "type": "customer.updated",
+      "processedAt": "2026-04-13T22:34:02.886Z"
+    },
+    "evt_1TLt3O9S0Hw1D89f43tV9mWr": {
+      "type": "customer.subscription.created",
+      "processedAt": "2026-04-13T22:34:03.170Z"
+    },
+    "evt_1TLt3P9S0Hw1D89flKnIIvZt": {
+      "type": "customer.subscription.updated",
+      "processedAt": "2026-04-13T22:34:03.225Z"
+    },
+    "evt_3TLt3K9S0Hw1D89f0qi5uai7": {
+      "type": "payment_intent.succeeded",
+      "processedAt": "2026-04-13T22:34:03.351Z"
+    },
+    "evt_3TLt3K9S0Hw1D89f0fBZUpIy": {
+      "type": "payment_intent.created",
+      "processedAt": "2026-04-13T22:34:03.542Z"
+    },
+    "evt_1TLt3P9S0Hw1D89fqDD8qAq7": {
+      "type": "invoice.created",
+      "processedAt": "2026-04-13T22:34:03.694Z"
+    },
+    "evt_1TLt3P9S0Hw1D89fMJxVmyxx": {
+      "type": "invoice.finalized",
+      "processedAt": "2026-04-13T22:34:03.781Z"
+    },
+    "evt_1TLt3P9S0Hw1D89faIJM7API": {
+      "type": "invoice.updated",
+      "processedAt": "2026-04-13T22:34:03.946Z"
+    },
+    "evt_1TLt3Q9S0Hw1D89fhRkvnpCp": {
+      "type": "invoice.paid",
+      "processedAt": "2026-04-13T22:34:05.166Z"
+    },
+    "evt_1TLt3X9S0Hw1D89fdjG0kVmQ": {
+      "type": "invoice.payment_succeeded",
+      "processedAt": "2026-04-13T22:34:11.753Z"
+    },
+    "evt_1TLt3Z9S0Hw1D89ffkqH8kun": {
+      "type": "invoice_payment.paid",
+      "processedAt": "2026-04-13T22:34:13.979Z"
+    }
+  },
+  "fulfilledSessions": {
+    "cs_test_a1Nzy3WwWhhQluKKPpK5ggDPVfXPe4rD073T1uBcwIsnsxZuebyMGscy1f": {
+      "anonymousUserId": "anon_25fa4ccdf5a767386b6b348ac83d6443",
+      "plan": "starter",
+      "creditsAdded": 20,
+      "fulfilledAt": "2026-04-13T08:56:45.808Z"
+    },
+    "cs_test_a1x7X2KlhkFeRCjTe1Q3WPUugD6r9c80skJtoDpH2TX7I3D8kyLJgaKQCK": {
+      "anonymousUserId": "anon_e5d93450528e33b38c88058cc5905529",
+      "plan": "starter",
+      "creditsAdded": 20,
+      "fulfilledAt": "2026-04-13T22:11:15.035Z"
+    },
+    "cs_test_a1bgBbvawwDUAhLBuUH4Gc1GBdn51i5RgoiNmtRZj8yQRwiM5KgiCMFuaZ": {
+      "anonymousUserId": "anon_e5d93450528e33b38c88058cc5905529",
+      "plan": "starter",
+      "creditsAdded": 20,
+      "fulfilledAt": "2026-04-13T22:20:36.408Z"
+    },
+    "cs_test_a1PZlsS5n7mApixa1Arv4Ri1Oc2Sr1BC4vPL4WMhAkCCDklID4d3MJ91HO": {
+      "anonymousUserId": "anon_e5d93450528e33b38c88058cc5905529",
+      "plan": "starter",
+      "creditsAdded": 20,
+      "fulfilledAt": "2026-04-13T22:26:16.312Z"
+    },
+    "cs_test_a1fKMnM6daix9wlwwEkefx3NHn9R16m0azHIv3oCpRdu5vTPZFbKVSacLi": {
+      "anonymousUserId": "anon_e5d93450528e33b38c88058cc5905529",
+      "plan": "starter",
+      "creditsAdded": 20,
+      "fulfilledAt": "2026-04-13T22:32:21.992Z"
+    },
+    "cs_test_a1vk2dzqKna8UwSrsv7PhR9F2HVJm59FcvmB4xwkNI9asyhxCIWH6FaiOB": {
+      "anonymousUserId": "anon_e5d93450528e33b38c88058cc5905529",
+      "plan": "pro",
+      "subscriptionId": "sub_1TLt3I9S0Hw1D89fBknwo1fI",
+      "subscriptionStatus": "active",
+      "fulfilledAt": "2026-04-13T22:34:02.803Z"
+    }
+  }
+}
