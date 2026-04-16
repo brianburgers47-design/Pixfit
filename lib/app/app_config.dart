@@ -11,7 +11,7 @@ class AppConfig {
       return _configuredApiBaseUrl.replaceFirst(RegExp(r'/$'), '');
     }
 
-    return Uri.base.origin;
+    return 'http://localhost:8787';
   }
 
   static Uri apiUri(String path, {Map<String, String>? queryParameters}) {

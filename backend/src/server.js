@@ -379,36 +379,16 @@ app.post('/api/checkout/session', async (request, response) => {
     });
 
     response.json({ checkoutUrl: session.url });
-  } catch (error) {
+  } catch (err) {
     console.error('[checkout] failed:', {
-      message: error.message,
-      code: error.code,
-      type: error.type,
-      raw: error.raw,
-      stack: error.stack,
+      message: err.message,
+      code: err.code,
+      type: err.type,
+      raw: err.raw,
     });
-    console.error('Create Checkout Session failed:', error);
-    if (error.code === 'missing_stripe_secret_key') {
-      response.status(503).json({
-        error: 'Stripe is not configured',
-        reason: 'missing_stripe_secret_key',
-      });
-      return;
-    }
-
-    if (error.code === 'stripe_price_lookup_not_found') {
-      response.status(404).json({
-        error: 'Stripe price lookup key not found or inactive',
-        reason: 'stripe_price_lookup_not_found',
-        plan: error.plan,
-        lookupKey: error.lookupKey,
-      });
-      return;
-    }
 
     response.status(500).json({
-      error: 'Could not create checkout session',
-      reason: 'checkout_session_failed',
+      error: 'Checkout failed',
     });
   }
 });

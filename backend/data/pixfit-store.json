@@ -200,6 +200,18 @@
       "subscriptionStatus": null,
       "createdAt": "2026-04-15T14:40:17.942Z",
       "updatedAt": "2026-04-15T14:40:17.942Z"
+    },
+    "anon_4a767d1f1fd2c28a70efc6d2bee2b59e": {
+      "anonymousUserId": "anon_4a767d1f1fd2c28a70efc6d2bee2b59e",
+      "credits": 1,
+      "isPro": false,
+      "hasStarter": false,
+      "plan": "free",
+      "stripeCustomerId": null,
+      "stripeSubscriptionId": null,
+      "subscriptionStatus": null,
+      "createdAt": "2026-04-16T08:21:36.486Z",
+      "updatedAt": "2026-04-16T17:49:36.592Z"
     }
   },
   "processedEvents": {
@@ -398,6 +410,10 @@
     "evt_1TLt3Z9S0Hw1D89ffkqH8kun": {
       "type": "invoice_payment.paid",
       "processedAt": "2026-04-13T22:34:13.979Z"
+    },
+    "evt_1TMWN79S0Hw1D89fww6rwJG5": {
+      "type": "checkout.session.expired",
+      "processedAt": "2026-04-15T16:33:01.427Z"
     }
   },
   "fulfilledSessions": {
