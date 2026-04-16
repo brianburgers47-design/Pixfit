@@ -24,7 +24,8 @@ const host = '0.0.0.0';
 const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
 const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
 const stripe = stripeSecretKey ? new Stripe(stripeSecretKey) : null;
-const flutterBuildPath = path.resolve(__dirname, '..', '..', 'build', 'web');
+const flutterBuildPath = path.join(__dirname, '../../build/web');
+const flutterIndexPath = path.join(flutterBuildPath, 'index.html');
 
 const allowedOrigins = (process.env.FRONTEND_ORIGIN || 'http://localhost:7357')
   .split(',')
@@ -484,7 +485,7 @@ function handleSubscriptionChange(subscription) {
 app.use(express.static(flutterBuildPath));
 
 app.get(/^\/(?!api(?:\/|$)).*/, (_request, response) => {
-  response.sendFile(path.join(flutterBuildPath, 'index.html'));
+  response.sendFile(flutterIndexPath);
 });
 
 app.listen(port, host, () => {
